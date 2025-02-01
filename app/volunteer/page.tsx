@@ -123,8 +123,8 @@ export default function VolunteerPage() {
         className="relative w-full"
       >
         <Image
-          src="/volunteer.jpg"
-          alt="Volunteers working together in Nepal"
+          src="/mountain.jpg"
+          alt="mountain"
           fill
           priority
           className="object-cover"

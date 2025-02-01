@@ -6,14 +6,16 @@ export default function Home() {
     <div>
       {/* Hero Section */}
       <section className="relative h-[80vh] min-h-[600px] overflow-hidden">
-        <Image
-          src="/mountain.jpg"
-          alt="Nepal mountain landscape"
-          layout="fill"
-          objectFit="cover"
-          priority
-          className="transition-transform duration-[20s] scale-100 hover:scale-110"
-        />
+        <div className="absolute inset-0 animate-ken-burns">
+          <Image
+            src="/Nepal.jpg"
+            alt="Nepal mountain landscape"
+            layout="fill"
+            objectFit="cover"
+            priority
+            className="transition-all duration-[30s] scale-[1.3] hover:scale-[1.1]"
+          />
+        </div>
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/40 flex items-center justify-center">
           <div className="text-center text-white space-y-6 animate-fade-in-up">
             <h1 className="text-5xl md:text-7xl font-bold mb-4 tracking-tight">
@@ -143,4 +145,3 @@ export default function Home() {
     </div>
   )
 }
-
